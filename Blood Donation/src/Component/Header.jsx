@@ -42,6 +42,14 @@ const Header = () => {
                             to="/register"
                             className={({ isActive }) => (isActive ? "active-link" : "")}
                         >
+                            Register
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                            to="/login"
+                            className={({ isActive }) => (isActive ? "active-link" : "")}
+                        >
                             Log in
                         </NavLink>
                     </li>

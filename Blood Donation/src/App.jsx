@@ -12,9 +12,8 @@ import Bloodcompatibility from './Component/Bloodcompatibility';
 import Eligibleform from './Component/Eligibleform';
 import Mission from './Component/Mission';
 import AboutUs from './Component/AboutUs';
-
-  
-
+import Footer from './Component/Footer';
+import Feedback from './Component/Feedback';
 
 
 const router = createBrowserRouter([
@@ -30,8 +29,8 @@ const router = createBrowserRouter([
         <Bloodcompatibility />
         <FAQ />
         <AboutUs />
-
-
+        <Feedback/>
+        <Footer/>
       </div>
     ),
   },
