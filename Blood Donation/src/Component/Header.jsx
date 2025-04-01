@@ -5,10 +5,14 @@ const Header = () => {
     return (
         <header className="header">
             <div className="logo">
+            <NavLink
+                            to="/" >
                 <img
                     src="https://www.shutterstock.com/image-vector/blood-drop-plus-heart-shape-600nw-2238094877.jpg"
                     alt="logo"
                 />
+                        </NavLink>
+
                 <span>Blood Donation</span>
             </div>
             <nav className="nav">
